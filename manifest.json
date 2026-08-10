@@ -1,0 +1,10 @@
+{
+  "Name": "Shift2Speed",
+  "Author": "Han",
+  "Version": "1.0.0",
+  "Description": "changes the shift key to go faster than the usual run",
+  "UniqueID": "Han.Shift2Speed",
+  "EntryDll": "Shift2Speed.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}

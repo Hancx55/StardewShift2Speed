@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <EnableHarmony>true</EnableHarmony>
+	  <Gamepath>C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley - modpack B\</Gamepath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Stardew Valley - modpack B\smapi-internal\0Harmony.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
